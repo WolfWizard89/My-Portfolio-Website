@@ -1,15 +1,5 @@
 "use client";
 import { cn } from "@/lib/utils";
-import {
-  IconAdjustmentsBolt,
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
-} from "@tabler/icons-react";
 
 import { FaJava, FaPhp ,FaReact} from 'react-icons/fa';
 import { IoLogoJavascript,IoLogoPython, IoLogoNodejs } from "react-icons/io5";

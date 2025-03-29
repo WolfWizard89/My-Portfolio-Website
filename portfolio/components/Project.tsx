@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 const Project = () => {
   return (
     <div>
-      <div className="flex justify-start items-start m-4">
+      <div className="flex justify-center lg:justify-start items-start m-4">
         <TextGenerateEffect words="Projects:" />
       </div>
       <div className="w-full h-full flex flex-col items-center justify-center bg-black ">
