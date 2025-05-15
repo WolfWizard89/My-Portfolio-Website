@@ -110,6 +110,29 @@ const Project = () => {
               </div>
             </PinContainer>
           </div>
+          <div className="m-8">
+            <PinContainer title="Github Repo" href="https://github.com/WolfWizard89/CSA-CW">
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                  Bookstore Management APIs
+                </h3>
+                <div className="text-base !m-0 !p-0 font-normal">
+                  <span className="text-slate-500 ">
+                    This project provides RESTful APIs for managing a bookstore, 
+                    including endpoints for handling books, customers, and orders. 
+                    The APIs can be tested using Postman for functionality verification.
+                  </span>
+                </div>
+                <div className="flex flex-1 w-full rounded-lg mt-4 overflow-hidden">
+                  <img
+                    src="/booksapi.jpg"
+                    alt="aceternity"
+                    className="w-full h-full object-cover rounded-lg bg-white"
+                  />
+                </div>
+              </div>
+            </PinContainer>
+          </div>
         </div>
         <div className="h-auto w-full flex justify-center gap-4 p-4 flex-wrap flex-col-4">
           <div className="m-8">
@@ -163,6 +186,7 @@ const Project = () => {
               </div>
             </PinContainer>
           </div>
+          
           <div className="m-8">
             <PinContainer title="Private & Confidential" href="/">
               <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">

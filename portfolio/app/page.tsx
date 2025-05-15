@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </div>
       <div id="FrameWorks" className="relative bg-black flex justify-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-        <Exprerience />
+          <Exprerience />
       </div>
       <div  id="Projects" className="relative bg-black flex justify-center flex-col ">
         <Project />

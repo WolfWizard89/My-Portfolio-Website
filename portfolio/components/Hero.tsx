@@ -42,14 +42,14 @@ const Hero = () => {
               <div className="flex flex-col justify-center items-center md:justify-between md:items-center md:flex-row w-full">
                 <div className="flex flex-col justify-center md:items-start items-center w-full h-full">
                   <h3 className="text-white text-2xl md:text-4xl font-bold text-center">
-                    Hello, It's me
+                    Hello, It&apos;s me
                   </h3>
                   <h2 className="text-white text-2xl md:text-6xl font-bold text-center mt-4">
                     Eshan Bhanuka
                   </h2>
 
                   <div className="text-white text-sm md:text-4xl mt-6">
-                    <span>As a developer, I'm </span>
+                    <span>As a developer, I&apos;m </span>
                     <Cover className=" ">
                       <FlipWords words={words} /> Fast
                     </Cover>
@@ -95,8 +95,10 @@ const Hero = () => {
                 <div>
                   <DirectionAwareHover imageUrl="/Eshan.jpg">
                     <p className="font-bold text-xl">Eshan Bhanuka Silva</p>
-                    <p className="font-normal text-sm">
-                      Computer Science Undergraduate
+                    <p className="font-normal text-sm text-neutral-400">
+                      Computer Science Undergraduate <br />
+                      Avionics Researcher <br />
+                      Performance Driver & Tuner
                     </p>
                   </DirectionAwareHover>
                 </div>

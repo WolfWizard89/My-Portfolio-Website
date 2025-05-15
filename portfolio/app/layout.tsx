@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Eshan Bhanuka's Portfolio",
-  description: "Modern portfolio website of Eshan Bhanuka",
+  description: "Modern portfolio website of Eshan Bhanuka. Computer Science Undergraduate, Avionics Researcher, Performance Driver & Tuner. ",
 };
 
 export default function RootLayout({

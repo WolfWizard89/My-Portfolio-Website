@@ -17,9 +17,7 @@ const Footer = () => {
         <p className="text-center mt-2 text-neutral-300 relative z-20">
           ebbhanuka@gmail.com | eshan.20232120@iit.ac.lk
         </p>
-        <p className="text-center mt-2 text-neutral-300 relative z-20">
-          TP: +94761619282
-        </p>
+        
         <div className=" flex flex-row justify-center items-center mt-10 gap-5">
                             <a
                               href="https://www.facebook.com/wolfwizard.11/"
@@ -58,7 +56,7 @@ const Footer = () => {
                             </a>
                           </div>
         <p className="text-center text-neutral-300 absolute bottom-4 z-20">
-          All rights reserved &copy; 2024-2025 Wolf-Wizard
+          &copy; All rights reserved  2024-2025 Wolf-Wizard
         </p>
       </div>
     </div>
